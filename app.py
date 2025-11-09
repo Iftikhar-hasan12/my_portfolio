@@ -308,8 +308,8 @@ def show_education():
     st.subheader("Green University of Bangladesh (GUB)")
     st.write("**BSc in Computer Science & Engineering**")
     st.write("**Duration:** 2022 - Present")
-    st.write("**CGPA:** 3.97/4.00")
-    st.write("**Current Status:** 3rd Year Student")
+    st.write("**CGPA:** 3.96/4.00")
+    st.write("**Current Status:** Final Year Student")
     
     st.markdown("---")
     
@@ -461,15 +461,7 @@ def show_current_work():
     - Working on NLP applications
     - Building end-to-end ML pipelines
     
-    **Competitive Programming**
-    - Daily practice on Codeforces and LeetCode
-    - Target: Reach 1000+ rating on Codeforces
-    - Solving 3-5 problems daily
-    
-    **Skill Enhancement**
-    - Deepening knowledge in Deep Learning
-    - Learning advanced data structures
-    - Improving software engineering practices
+  
     
     **Project Development**
     - Enhancing existing projects
@@ -493,7 +485,7 @@ def show_achievements():
     **Academic Excellence**
     - Consistent CGPA of 3.97/4.00
     - Top performer in Computer Science department
-    - Shortlisted
+    - Shortlisted in VisionX AI Project Showcasing Competition.
     """)
     
     st.markdown('</div>', unsafe_allow_html=True)
@@ -718,4 +710,5 @@ def main():
         show_contact()
 
 if __name__ == "__main__":
+
     main()
