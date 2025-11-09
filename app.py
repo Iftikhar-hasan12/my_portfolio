@@ -299,7 +299,7 @@ def show_dashboard():
 def show_education():
     st.markdown('<div class="content-section">', unsafe_allow_html=True)
     
-    if st.button("Back to Dashboard"):
+    if st.button("Back to Dashboard", type="primary"):
         st.session_state.current_page = 'dashboard'
         st.rerun()
     
@@ -342,7 +342,7 @@ def show_education():
 def show_projects():
     st.markdown('<div class="content-section">', unsafe_allow_html=True)
     
-    if st.button("Back to Dashboard"):
+    if st.button("Back to Dashboard", type="primary"):
         st.session_state.current_page = 'dashboard'
         st.rerun()
     
@@ -447,7 +447,7 @@ def show_projects():
 def show_current_work():
     st.markdown('<div class="content-section">', unsafe_allow_html=True)
     
-    if st.button("Back to Dashboard"):
+    if st.button("Back to Dashboard", type="primary"):
         st.session_state.current_page = 'dashboard'
         st.rerun()
     
@@ -475,7 +475,7 @@ def show_current_work():
 def show_achievements():
     st.markdown('<div class="content-section">', unsafe_allow_html=True)
     
-    if st.button("Back to Dashboard"):
+    if st.button("Back to Dashboard", type="primary"):
         st.session_state.current_page = 'dashboard'
         st.rerun()
     
@@ -494,7 +494,7 @@ def show_achievements():
 def show_skills():
     st.markdown('<div class="content-section">', unsafe_allow_html=True)
     
-    if st.button("Back to Dashboard"):
+    if st.button("Back to Dashboard", type="primary"):
         st.session_state.current_page = 'dashboard'
         st.rerun()
     
@@ -541,7 +541,7 @@ def show_skills():
 def show_cv():
     st.markdown('<div class="content-section">', unsafe_allow_html=True)
     
-    if st.button("Back to Dashboard"):
+    if st.button("Back to Dashboard", type="primary"):
         st.session_state.current_page = 'dashboard'
         st.rerun()
     
@@ -603,7 +603,7 @@ def show_social():
 def show_playlist():
     st.markdown('<div class="content-section">', unsafe_allow_html=True)
     
-    if st.button("Back to Dashboard"):
+    if st.button("Back to Dashboard", type="primary"):
         st.session_state.current_page = 'dashboard'
         st.rerun()
     
@@ -639,7 +639,7 @@ def show_playlist():
 def show_contact():
     st.markdown('<div class="content-section">', unsafe_allow_html=True)
     
-    if st.button("Back to Dashboard"):
+    if st.button("Back to Dashboard", type="primary"):
         st.session_state.current_page = 'dashboard'
         st.rerun()
     
@@ -712,5 +712,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
