@@ -229,8 +229,8 @@ def show_dashboard():
     st.markdown('''
     <div class="about-text">
         <strong>About Myself</strong><br><br>
-        A passionate 3rd-year Computer Science and Engineering student at Green University of Bangladesh 
-        with outstanding academic record (3.97/4.00 CGPA). Skilled in Machine Learning, Deep Learning, 
+        A passionate Final year Computer Science and Engineering student at Green University of Bangladesh 
+        with outstanding academic record (3.96/4.00 CGPA). Skilled in Machine Learning, Deep Learning, 
         and Competitive Programming. Created educational content, participated in Kaggle competitions, 
         and built real-world AI projects. Always eager to learn new technologies and solve challenging problems.
     </div>
@@ -576,7 +576,7 @@ def show_cv():
 def show_social():
     st.markdown('<div class="content-section">', unsafe_allow_html=True)
     
-    if st.button("Back to Dashboard"):
+    if st.button("Back to Dashboard", type="primary"):
         st.session_state.current_page = 'dashboard'
         st.rerun()
     
@@ -712,6 +712,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
