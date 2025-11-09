@@ -131,7 +131,7 @@ st.markdown("""
     }
     
     .back-button {
-        background: #2e86ab;
+        background: #d32f2f;
         color: white;
         border: none;
         padding: 0.5rem 1.5rem;
@@ -712,3 +712,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
