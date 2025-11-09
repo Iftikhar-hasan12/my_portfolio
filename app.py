@@ -222,7 +222,7 @@ def show_dashboard():
             st.markdown('<div style="width: 180px; height: 180px; border-radius: 50%; background: #f0f0f0; display: flex; align-items: center; justify-content: center; margin: 0 auto; border: 4px solid #2e86ab;">'
                        '<span style="color: #2e86ab; font-size: 2rem;">IA</span></div>', unsafe_allow_html=True)
         
-        st.markdown('<div class="name-title">Iftikhar Ahmed</div>', unsafe_allow_html=True)
+        st.markdown('<div class="name-title">Iftikhar Hasan</div>', unsafe_allow_html=True)
         st.markdown('<div class="subtitle">Machine Learning Engineer | Competitive Programmer</div>', unsafe_allow_html=True)
     
     # About section
@@ -712,6 +712,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
